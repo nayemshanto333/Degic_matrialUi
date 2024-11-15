@@ -25,12 +25,13 @@ export  function Navbar() {
                             <img src="/logo.png" alt="logo" />
                         </Typography>
                         {MenuItem.map((item)=>(
-                        <Button color='inharit' key={item} sx={{px:"20px"}}>{item}</Button>                
+                        <Button color='inharit' key={item} sx={{px:"15px"}}>{item}</Button>                
                         ))}
                         <Button variant='outlined' sx={{
                             color:"#ef3612",
                             backgroundColor:"white",
                             borderRadius:"10px",
+                            margin:"0 10px",
                             "&:hover":{
                                 color:"white",
                                 backgroundColor:"#ef3612",
