@@ -28,13 +28,14 @@ const Work = () => {
             <p>Make more time for the work</p>
           </div>
           <div>
-            
-            <button className="btn bg-[#5F62E2] text-white px-4 py-3 rounded-[10px] mt-6">
+            <button className="text-[#5F62E2] bg-indigo-100 hover:text-white hover:bg-[#5F62E2] transition-all duration-300 px-4 py-3 rounded-[10px] mt-6">
               Explore All <ArrowForwardIcon />{" "}
             </button>
           </div>
         </div>
       </div>
+
+      
     </section>
   );
 };

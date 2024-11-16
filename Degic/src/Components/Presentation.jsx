@@ -59,7 +59,7 @@ const Presentation = () => {
           <h1 className=" text-2xl sm:text-4xl lg:text-6xl font-semibold text-center lg:text-start">The quickest way to create modern presentation</h1>
           <p className="text-base sm:text-xl text-gray-500 my-5 text-center lg:text-start">Best software platform for running an internet business. We build the most powerful and flexible tools for internet commerce.</p>
           <div className="text-center lg:text-start">
-          <button className='btn bg-indigo-100 text-[#5F62E2] px-4 py-3 rounded-[10px]'>Explore All <ArrowForwardIcon/> </button>
+          <button className='btn bg-indigo-100 text-[#5F62E2] hover:text-white hover:bg-[#5F62E2] transition-all duration-300 px-4 py-3 rounded-[10px]'>Explore All <ArrowForwardIcon/> </button>
           </div>
           <p className="text-gray-500 mt-16 text-center lg:text-start">Follow us</p>
           <div className="flex  gap-3 mt-5 justify-center lg:justify-start">

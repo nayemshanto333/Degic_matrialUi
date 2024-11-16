@@ -1,4 +1,6 @@
 import './App.css'
+import AwsomePresentation from './Components/AwsomePresentation'
+import Blog from './Components/Blog'
 import Hero from './Components/Hero'
 import {Navbar} from './Components/Navbar'
 import Presentation from './Components/Presentation'
@@ -19,6 +21,8 @@ function App() {
     <Video/>
     <Work/>
     <Work2/>
+    <AwsomePresentation/>
+    <Blog/>
     
  
     </>

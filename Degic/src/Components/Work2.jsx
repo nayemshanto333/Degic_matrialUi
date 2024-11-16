@@ -4,7 +4,7 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 const Work = () => {
   return (
-    <section className="container max-w-[1400px] py-16 px-6 md:px-12 lg:px-16 mx-auto">
+    <section className="container max-w-[1400px] py-16 px-6 md:px-12 lg:px-24  mx-auto">
       <div className="flex flex-col-reverse md:flex-row justify-between gap-24">
         {/* left section */}
         <div className="flex flex-col justify-center w-full md:w-1/2">
@@ -24,14 +24,13 @@ const Work = () => {
             <p>Make more time for the work</p>
           </div>
           <div>
-            
-            <button className="btn text-[#5F62E2] bg-indigo-100 px-4 py-3 rounded-[10px] mt-6">
+            <button className=" text-[#5F62E2] bg-indigo-100 hover:text-white hover:bg-[#5F62E2] transition-all duration-300 px-4 py-3 rounded-[10px] mt-6">
               Explore All <ArrowForwardIcon />{" "}
             </button>
           </div>
         </div>
 
-    {/* right section */}
+        {/* right section */}
         <div className="flex  justify-center items-center w-full md:w-1/2">
           <div>
             <img src="/Group22.png" alt="" />
