@@ -1,6 +1,7 @@
 import './App.css'
 import AwsomePresentation from './Components/AwsomePresentation'
 import Blog from './Components/Blog'
+import Footer from './Components/Footer'
 import Hero from './Components/Hero'
 import {Navbar} from './Components/Navbar'
 import Presentation from './Components/Presentation'
@@ -23,6 +24,7 @@ function App() {
     <Work2/>
     <AwsomePresentation/>
     <Blog/>
+    <Footer/>
     
  
     </>
